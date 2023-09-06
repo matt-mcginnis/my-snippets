@@ -314,6 +314,10 @@
             },
             {
                 "language": "python",
+                "path": "./snippets/python/airflow.json"
+            },
+            {
+                "language": "python",
                 "path": "./snippets/python/base.json"
             },
             {
