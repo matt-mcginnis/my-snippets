@@ -1,6 +1,6 @@
 {
-    "default_args": {
-        "prefix": "default_args",
+    "dag_default_args": {
+        "prefix": "dag_default_args",
         "body": [
             "default_args = {",
             "\t\"owner\": \"${1:airflow}\",",
@@ -20,7 +20,7 @@
             "\tdefault_args=${2:default_args},",
             "\tdescription=\"${3:<description>}\",",
             "\tschedule_interval=\"${4:* * * * *}\",",
-            "\tcatchup=${6:False},",
+            "\tcatchup=${5:False},",
             "\tmax_active_runs=${6:1},",
             ")"
         ],
